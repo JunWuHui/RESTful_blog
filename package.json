@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production nodemon app",
+    "dev": "nodemon app "
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,13 @@
   "homepage": "https://github.com/JunWuHui/RESTful_blog#readme",
   "dependencies": {
     "@koa/router": "^9.3.1",
-    "koa": "^2.13.0"
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
+    "mongoose": "^5.9.24",
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "koa-router": "^9.1.0",
