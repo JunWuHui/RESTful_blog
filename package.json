@@ -22,10 +22,14 @@
     "@koa/router": "^9.3.1",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json-error": "^3.1.2",
+    "koa-jwt": "^4.0.0",
     "koa-parameter": "^3.0.1",
+    "koa-static": "^5.0.0",
     "mongoose": "^5.9.24",
+    "path": "^0.12.7",
     "typeorm": "^0.2.25"
   },
   "devDependencies": {
